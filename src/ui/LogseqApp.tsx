@@ -41,7 +41,7 @@ interface LogseqAIProps {
   onClose: () => void;
 }
 
-export const LogseqAI = ({
+export const LogseqApp = ({
   commands,
   handleCommand,
   onClose,

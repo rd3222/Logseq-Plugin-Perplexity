@@ -1,7 +1,7 @@
 import { Combobox } from "@headlessui/react";
 import clsx from "clsx";
 import "../style.css";
-import { Command } from "../LogseqAI";
+import { Command } from "../LogseqApp";
 
 const CommandOption = ({ command }: { command: Command }) => {
   if (command.type === "custom") {

@@ -1,5 +1,5 @@
 import Fuse from "fuse.js";
-import { Command } from "../LogseqAI";
+import { Command } from "../LogseqApp";
 
 export const makeCustomCommand = (name: string): Command => {
   return { type: "custom", name: name, prompt: name + "\n" };

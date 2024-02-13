@@ -1,4 +1,4 @@
-import { Command } from "../ui/LogseqAI";
+import { Command } from "../ui/LogseqApp";
 import toml from "toml";
 import prompts from "../prompts/prompts.toml?raw";
 //extract content from inside ```gpt-prompt codeblock
